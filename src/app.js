@@ -1,5 +1,5 @@
-const express = require('express');
-const ProductManager = require('./ProductManager');
+import express from 'express';
+import ProductManager from './ProductManager.js';
 
 const app = express();
 const port = 8080; //Puerto a 8080 según la consigna de la preentrega

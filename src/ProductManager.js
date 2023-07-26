@@ -1,4 +1,4 @@
-const fs = require('fs');
+import fs from 'fs';
 
 class ProductManager {
     //Constructor que recibe la ruta del archivo de productos
